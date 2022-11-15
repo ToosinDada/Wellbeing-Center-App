@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">1a7056e4f90211108c8bd16244dfe705</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-11-15 14:54:03</sys_created_on>
+        <sys_id>a43a30bf1b0b1510074e639bbc4bcb41</sys_id>
+        <sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package>
+    </sys_package_dependency_m2m>
+</record_update>
