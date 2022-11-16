@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_938822_wellbeing_wellness_request">wellness_event_location=other^EQ<item display_value="Other" endquery="false" field="wellness_event_location" goto="false" newquery="false" operator="=" or="false" value="other"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+g_form.hideAllFieldMsgs('other');
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+g_form.showFieldMsg('other', 'Where do you want the event take place?', 'info');
+}]]></script_true>
+        <set_values/>
+        <short_description>Make other fields visible and mandatory - Wellness Request</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 13:37:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b091f5481b5b5510074e639bbc4bcb87</sys_id>
+        <sys_name>Make other fields visible and mandatory - Wellness Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_update_name>sys_ui_policy_b091f5481b5b5510074e639bbc4bcb87</sys_update_name>
+        <table>x_938822_wellbeing_wellness_request</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

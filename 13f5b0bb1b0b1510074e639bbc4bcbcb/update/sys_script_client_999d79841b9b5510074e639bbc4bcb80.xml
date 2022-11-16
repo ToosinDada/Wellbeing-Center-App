@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set Wellness Activity type field automatically for mobiles</description>
+        <field>cmdb_ci</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Wellness Activity Type</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 14:34:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>999d79841b9b5510074e639bbc4bcb80</sys_id>
+        <sys_name>Set Wellness Activity Type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_update_name>sys_script_client_999d79841b9b5510074e639bbc4bcb80</sys_update_name>
+        <table>x_938822_wellbeing_wellness_request</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

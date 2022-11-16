@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 11:20:11</sys_created_on>
+        <sys_id>edd29d881bd75510074e639bbc4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_938822_wellbeing_wellbeing_task.x_938822_wellbeing.wellbeing_task_user</sys_name>
+        <sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_security_acl display_value="x_938822_wellbeing_wellbeing_task">69d25d881bd75510074e639bbc4bcbf1</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_edd29d881bd75510074e639bbc4bcb0c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:20:11</sys_updated_on>
+        <sys_user_role display_value="x_938822_wellbeing.wellbeing_task_user" name="x_938822_wellbeing.wellbeing_task_user">f4d2d9881bd75510074e639bbc4bcb27</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</application>
+        <file_path/>
+        <instance_id>b12c8a5ddb72c450b847ac44d4961922</instance_id>
+        <instance_name>dev99417</instance_name>
+        <name>sys_security_acl_role_edd29d881bd75510074e639bbc4bcb0c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-16 11:20:11</sys_created_on><sys_id>edd29d881bd75510074e639bbc4bcb0c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_938822_wellbeing_wellbeing_task.x_938822_wellbeing.wellbeing_task_user</sys_name><sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package><sys_policy/><sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope><sys_security_acl display_value="x_938822_wellbeing_wellbeing_task">69d25d881bd75510074e639bbc4bcbf1</sys_security_acl><sys_update_name>sys_security_acl_role_edd29d881bd75510074e639bbc4bcb0c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-16 11:20:11</sys_updated_on><sys_user_role display_value="x_938822_wellbeing.wellbeing_task_user" name="x_938822_wellbeing.wellbeing_task_user">f4d2d9881bd75510074e639bbc4bcb27</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>2109954129</payload_hash>
+        <record_name>x_938822_wellbeing_wellbeing_task.x_938822_wellbeing.wellbeing_task_user</record_name>
+        <reverted_from/>
+        <source>070bbe771b8f1510074e639bbc4bcbc0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 11:20:12</sys_created_on>
+        <sys_id>61d29d881bd75510074e639bbc4bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184802afea20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:20:12</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>a9d29d8849d75510cdd9f0a09e35880e</update_guid>
+        <update_guid_history>a9d29d8849d75510cdd9f0a09e35880e:2109954129</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_938822_wellbeing_wellbeing_task.x_938822_wellbeing.wellbeing_task_user">493e5d841b1b5510074e639bbc4bcb76</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 12:09:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>11f6ccb6632d4790993ccb26b8c7c900</sys_id>
+        <sys_metadata>edd29d881bd75510074e639bbc4bcb0c</sys_metadata>
+        <sys_name>x_938822_wellbeing_wellbeing_task.x_938822_wellbeing.wellbeing_task_user</sys_name>
+        <sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package>
+        <sys_parent display_value="">69d25d881bd75510074e639bbc4bcbf1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_scope_delete display_value="">3829f43fe931444eb2f6d6a6e4a355e4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_edd29d881bd75510074e639bbc4bcb0c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_edd29d881bd75510074e639bbc4bcb0c">61d29d881bd75510074e639bbc4bcb0f</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
