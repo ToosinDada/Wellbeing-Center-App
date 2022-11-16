@@ -13,7 +13,7 @@
         <roles/>
         <search_application/>
         <search_results_configuration/>
-        <short_description/>
+        <short_description>Find activities to help you enjoy play time.</short_description>
         <size>md</size>
         <sp_column display_value="1">151a9d401b1b5510074e639bbc4bcb80</sp_column>
         <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
@@ -22,12 +22,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-16 12:11:03</sys_created_on>
         <sys_id>aa7e59841b1b5510074e639bbc4bcba3</sys_id>
-        <sys_name>Welcome to the Wellbeing Center!</sys_name>
+        <sys_name>Welcome to the Wellness Center!</sys_name>
         <sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
         <sys_update_name>sp_instance_ais_aa7e59841b1b5510074e639bbc4bcba3</sys_update_name>
-        <title>Welcome to the Wellbeing Center!</title>
+        <title>Welcome to the Wellness Center!</title>
         <url/>
         <widget_parameters><![CDATA[{
 	"typeahead_search": {

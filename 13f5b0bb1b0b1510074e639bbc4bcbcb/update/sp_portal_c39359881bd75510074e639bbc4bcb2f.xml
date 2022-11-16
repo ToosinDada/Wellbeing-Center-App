@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
     <sp_portal action="INSERT_OR_UPDATE">
-        <css_variables>$brand-primary:#1F8476;
+        <css_variables>$brand-primary:#003459;
 $body-bg:#ffffff;
 $state-success-text:#1e4335;
 $sp-homepage-bg:#fff;
@@ -9,14 +9,14 @@ $text-color:#2e2e2e;
 $sp-logo-margin-y:.5rem;
 $navbar-inverse-link-hover-color:#d9e7dc;
 $panel-bg:#fff;
-$brand-success:#48C891;
+$brand-success:#007ea7;
 $navbar-inverse-bg:#333533;
 $brand-warning:#DFD139;
 $brand-danger:#C83C36;
 $sp-tagline-color:#ffffff;
 $navbar-inverse-link-color:#ffffff;
-$brand-info:#6ABECF;
-$link-color:#1F8476;
+$brand-info:#2dc653;
+$link-color:#00a8e8;
 $sp-logo-margin-x:2px;
 $btn-default-bg:#fff;
 $text-muted:#666666;

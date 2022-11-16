@@ -7,7 +7,7 @@
         <hint/>
         <name>Wellness request</name>
         <order>100</order>
-        <roles>x_938822_wellbeing.wellness_request_user</roles>
+        <roles>x_938822_wellbeing.wellness_request_user,x_938822_wellness.admin</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>aes.creator</sys_created_by>
         <sys_created_on>2022-11-15 14:54:00</sys_created_on>

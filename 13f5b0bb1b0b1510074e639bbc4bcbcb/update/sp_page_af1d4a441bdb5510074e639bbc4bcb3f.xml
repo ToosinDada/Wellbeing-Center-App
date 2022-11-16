@@ -4,7 +4,7 @@
         <css/>
         <draft>false</draft>
         <dynamic_title_structure/>
-        <id>wc_index</id>
+        <id>wellness_footer</id>
         <internal>false</internal>
         <omit_watcher>false</omit_watcher>
         <public>false</public>
@@ -13,15 +13,15 @@
         <short_description/>
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-16 11:48:57</sys_created_on>
-        <sys_id>b26995401b1b5510074e639bbc4bcbc1</sys_id>
-        <sys_name>wc_index</sys_name>
+        <sys_created_on>2022-11-16 15:34:49</sys_created_on>
+        <sys_id>af1d4a441bdb5510074e639bbc4bcb3f</sys_id>
+        <sys_name>wellness_footer</sys_name>
         <sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
-        <sys_update_name>sp_page_b26995401b1b5510074e639bbc4bcbc1</sys_update_name>
-        <title>Wellness Center</title>
+        <sys_update_name>sp_page_af1d4a441bdb5510074e639bbc4bcb3f</sys_update_name>
+        <title>Wellness Footer - Test Page</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>
-    <sys_translated_text action="delete_multiple" query="documentkey=b26995401b1b5510074e639bbc4bcbc1"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=af1d4a441bdb5510074e639bbc4bcb3f"/>
 </record_update>
