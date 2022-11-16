@@ -1,3 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="4909307f1b0b1510074e639bbc4bcb4a" extends="task" label="Wellness request" max_length="40" name="x_938822_wellbeing_wellness_request" type="collection"/>
+    <element db_object_id="4909307f1b0b1510074e639bbc4bcb4a" extends="task" label="Wellness request" max_length="40" name="x_938822_wellbeing_wellness_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Closed" max_length="40" name="closed" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="11" label="Event Status" max_length="40" name="event_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="11"/>
+                <element inactive_on_update="false" label="Reserved" sequence="1" value="12"/>
+                <element inactive_on_update="false" label="Event Preparation" sequence="2" value="13"/>
+                <element inactive_on_update="false" label="Event Approved" sequence="3" value="14"/>
+                <element inactive_on_update="false" label="Closed Completed" sequence="4" value="16"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Location to be used" max_length="40" name="location_to_be_used" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opened" max_length="40" name="opened" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Updated" max_length="40" name="updated" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Updated by" max_length="40" name="updated_by" type="string"/>
+        <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="novelty match" label="Wellness Activity Type" mandatory="true" max_length="40" name="wellness_activity_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="NOVELTY MATCH" sequence="0" value="novelty match"/>
+                <element inactive_on_update="false" label="GAMES NIGHTS" sequence="1" value="games nights"/>
+                <element inactive_on_update="false" label="RETREATS" sequence="2" value="retreats"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="football field" label="Wellness Event Location" max_length="40" name="wellness_event_location" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Football Field" sequence="0" value="football field"/>
+                <element inactive_on_update="false" label="Mountain" sequence="1" value="mountain"/>
+                <element inactive_on_update="false" label="Down Town" sequence="2" value="down town"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+    </element>
 </database>
