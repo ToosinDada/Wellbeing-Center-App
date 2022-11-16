@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_analytics_bucket">
+    <sys_analytics_bucket action="INSERT_OR_UPDATE">
+        <analytics_channel display_value="web">6496ef61c7001010393d265c95c260b9</analytics_channel>
+        <application_name>Wellbeing Center</application_name>
+        <bucket_document_id>c39359881bd75510074e639bbc4bcb2f</bucket_document_id>
+        <bucket_metadata/>
+        <bucket_table_name>sp_portal</bucket_table_name>
+        <bucket_type>service_portal</bucket_type>
+        <enable_unauthenticated_user_tracking>false</enable_unauthenticated_user_tracking>
+        <enabled>true</enabled>
+        <internal_name_for_index>x_938822_wellbeing.sp_portal.c39359881bd75510074e639bbc4bcb2f</internal_name_for_index>
+        <sys_class_name>sys_analytics_bucket</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 11:26:03</sys_created_on>
+        <sys_id>d324d10c1bd75510074e639bbc4bcb94</sys_id>
+        <sys_name>Wellbeing Center</sys_name>
+        <sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_update_name>sys_analytics_bucket_d324d10c1bd75510074e639bbc4bcb94</sys_update_name>
+    </sys_analytics_bucket>
+</record_update>

@@ -4,7 +4,7 @@
         <application display_value="Wellness request">772afc7f1b0b1510074e639bbc4bcbbd</application>
         <filter/>
         <name>Wellness requests</name>
-        <order/>
+        <order>100</order>
         <path/>
         <path_relative_to_root>false</path_relative_to_root>
         <roles>x_938822_wellbeing.wellness_request_user</roles>
