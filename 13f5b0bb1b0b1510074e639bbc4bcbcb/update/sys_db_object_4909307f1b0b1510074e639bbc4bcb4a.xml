@@ -6,9 +6,9 @@
         <caller_access/>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
-        <create_access>true</create_access>
+        <create_access>false</create_access>
         <create_access_controls>true</create_access_controls>
-        <delete_access>true</delete_access>
+        <delete_access>false</delete_access>
         <is_extendable>true</is_extendable>
         <label>Wellness request</label>
         <live_feed_enabled>false</live_feed_enabled>
@@ -27,7 +27,7 @@
         <sys_policy/>
         <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
         <sys_update_name>sys_db_object_4909307f1b0b1510074e639bbc4bcb4a</sys_update_name>
-        <update_access>true</update_access>
+        <update_access>false</update_access>
         <user_role display_value="x_938822_wellbeing.wellness_request_user" name="x_938822_wellbeing.wellness_request_user">372a7cfb1b0b1510074e639bbc4bcb56</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>

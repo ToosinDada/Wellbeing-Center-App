@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Night Games">cf5cd6141b9b9510074e639bbc4bcbc4</sc_cat_item>
+        <sc_category display_value="Desktops">900682363731300054b6a3549dbe5d5f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-17 11:37:37</sys_created_on>
+        <sys_id>ee6026181b9b9510074e639bbc4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Desktops.Night Games</sys_name>
+        <sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_update_name>sc_cat_item_category_ee6026181b9b9510074e639bbc4bcb23</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-17 11:37:37</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</application>
+        <file_path/>
+        <instance_id>b12c8a5ddb72c450b847ac44d4961922</instance_id>
+        <instance_name>dev99417</instance_name>
+        <name>sc_cat_item_category_ee6026181b9b9510074e639bbc4bcb23</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Night Games">cf5cd6141b9b9510074e639bbc4bcbc4</sc_cat_item><sc_category display_value="Desktops">900682363731300054b6a3549dbe5d5f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-17 11:37:37</sys_created_on><sys_id>ee6026181b9b9510074e639bbc4bcb23</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Desktops.Night Games</sys_name><sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package><sys_policy/><sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope><sys_update_name>sc_cat_item_category_ee6026181b9b9510074e639bbc4bcb23</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-17 11:37:37</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1796355838</payload_hash>
+        <record_name>Desktops.Night Games</record_name>
+        <reverted_from/>
+        <source>892fde841b1f5510074e639bbc4bcb8f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-17 11:37:37</sys_created_on>
+        <sys_id>2a6026181b9b9510074e639bbc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18485614d980000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-17 11:37:37</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>ae602618419b9510f2d8ecc898fdd426</update_guid>
+        <update_guid_history>ae602618419b9510f2d8ecc898fdd426:-1796355838</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Desktops.Night Games">7921ee181b9b9510074e639bbc4bcbde</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-17 11:40:51</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0588ec9950844b5c81190108ecc88da9</sys_id>
+        <sys_metadata>ee6026181b9b9510074e639bbc4bcb23</sys_metadata>
+        <sys_name>Desktops.Night Games</sys_name>
+        <sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_scope_delete display_value="">3829f43fe931444eb2f6d6a6e4a355e4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_ee6026181b9b9510074e639bbc4bcb23</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_ee6026181b9b9510074e639bbc4bcb23">2a6026181b9b9510074e639bbc4bcb27</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
