@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_taxonomy">
+    <m2m_sp_portal_taxonomy action="DELETE">
+        <active>true</active>
+        <order>100</order>
+        <sp_portal display_value="Wellbeing Center">c39359881bd75510074e639bbc4bcb2f</sp_portal>
+        <sys_class_name>m2m_sp_portal_taxonomy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 11:34:21</sys_created_on>
+        <sys_id>38165d4c1bd75510074e639bbc4bcb59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Wellbeing Center.Employee</sys_name>
+        <sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_update_name>m2m_sp_portal_taxonomy_38165d4c1bd75510074e639bbc4bcb59</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:34:21</sys_updated_on>
+        <taxonomy display_value="Employee">1f5d5a40c3203010069aec4b7d40dd93</taxonomy>
+    </m2m_sp_portal_taxonomy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</application>
+        <file_path/>
+        <instance_id>b12c8a5ddb72c450b847ac44d4961922</instance_id>
+        <instance_name>dev99417</instance_name>
+        <name>m2m_sp_portal_taxonomy_38165d4c1bd75510074e639bbc4bcb59</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_taxonomy"><m2m_sp_portal_taxonomy action="INSERT_OR_UPDATE"><active>true</active><order>100</order><sp_portal display_value="Wellbeing Center">c39359881bd75510074e639bbc4bcb2f</sp_portal><sys_class_name>m2m_sp_portal_taxonomy</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-16 11:34:21</sys_created_on><sys_id>38165d4c1bd75510074e639bbc4bcb59</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Wellbeing Center.Employee</sys_name><sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package><sys_policy/><sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope><sys_update_name>m2m_sp_portal_taxonomy_38165d4c1bd75510074e639bbc4bcb59</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-16 11:34:21</sys_updated_on><taxonomy display_value="Employee">1f5d5a40c3203010069aec4b7d40dd93</taxonomy></m2m_sp_portal_taxonomy></record_update>]]></payload>
+        <payload_hash>1616541180</payload_hash>
+        <record_name>Wellbeing Center.Employee</record_name>
+        <reverted_from/>
+        <source>070bbe771b8f1510074e639bbc4bcbc0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 11:34:21</sys_created_on>
+        <sys_id>70165d4c1bd75510074e639bbc4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1848037f3010000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:34:21</sys_updated_on>
+        <type>Portal Taxonomy</type>
+        <update_guid>b8165d4c95d755106d8181b0f969ed5b</update_guid>
+        <update_guid_history>b8165d4c95d755106d8181b0f969ed5b:1616541180</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Wellbeing Center.Employee">792adba01bdf1110074e639bbc4bcbaf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 10:28:22</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_taxonomy">m2m_sp_portal_taxonomy</sys_db_object>
+        <sys_id>080ed7cac57b466b84106ee7bca51a59</sys_id>
+        <sys_metadata>38165d4c1bd75510074e639bbc4bcb59</sys_metadata>
+        <sys_name>Wellbeing Center.Employee</sys_name>
+        <sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_scope_delete display_value="">3829f43fe931444eb2f6d6a6e4a355e4</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_taxonomy_38165d4c1bd75510074e639bbc4bcb59</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_taxonomy_38165d4c1bd75510074e639bbc4bcb59">70165d4c1bd75510074e639bbc4bcb5c</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

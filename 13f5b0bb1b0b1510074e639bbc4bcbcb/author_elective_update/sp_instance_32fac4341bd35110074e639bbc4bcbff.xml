@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e4dd7be41b535110074e639bbc4bcb8f</sp_column>
+        <sp_widget display_value="Employee Wellness Footer">aa7ebfe41b535110074e639bbc4bcbf9</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 14:01:43</sys_created_on>
+        <sys_id>32fac4341bd35110074e639bbc4bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_update_name>sp_instance_32fac4341bd35110074e639bbc4bcbff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-18 14:01:43</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=32fac4341bd35110074e639bbc4bcbff"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</application>
+        <file_path/>
+        <instance_id>b12c8a5ddb72c450b847ac44d4961922</instance_id>
+        <instance_name>dev99417</instance_name>
+        <name>sp_instance_32fac4341bd35110074e639bbc4bcbff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">e4dd7be41b535110074e639bbc4bcb8f</sp_column><sp_widget display_value="Employee Wellness Footer">aa7ebfe41b535110074e639bbc4bcbf9</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-18 14:01:43</sys_created_on><sys_id>32fac4341bd35110074e639bbc4bcbff</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package><sys_policy/><sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope><sys_update_name>sp_instance_32fac4341bd35110074e639bbc4bcbff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-18 14:01:43</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=32fac4341bd35110074e639bbc4bcbff"/></record_update>]]></payload>
+        <payload_hash>-515555698</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>892fde841b1f5510074e639bbc4bcb8f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 14:01:43</sys_created_on>
+        <sys_id>4bfa08341bd35110074e639bbc4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1848b0b96500000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-18 14:01:43</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>83fa083474d35110f4fd6e64ca73d501</update_guid>
+        <update_guid_history>83fa083474d35110f4fd6e64ca73d501:-515555698</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">981b40741bd35110074e639bbc4bcbb7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 14:02:05</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>2bb45955bc534deeb3d38d822ce00f64</sys_id>
+        <sys_metadata>32fac4341bd35110074e639bbc4bcbff</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_scope_delete display_value="">3829f43fe931444eb2f6d6a6e4a355e4</sys_scope_delete>
+        <sys_update_name>sp_instance_32fac4341bd35110074e639bbc4bcbff</sys_update_name>
+        <sys_update_version display_value="sp_instance_32fac4341bd35110074e639bbc4bcbff">4bfa08341bd35110074e639bbc4bcb01</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

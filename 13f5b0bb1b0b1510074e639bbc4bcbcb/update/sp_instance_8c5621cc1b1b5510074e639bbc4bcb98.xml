@@ -10,7 +10,7 @@
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="2">b23a15801b1b5510074e639bbc4bcbf5</sp_column>
+        <sp_column display_value="1">245ad1801b1b5510074e639bbc4bcb53</sp_column>
         <sp_widget display_value="Announcements">94c300c7e777320075c2a117c2f6a9e7</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -23,7 +23,38 @@
         <sys_update_name>sp_instance_8c5621cc1b1b5510074e639bbc4bcb98</sys_update_name>
         <title/>
         <url/>
-        <widget_parameters/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"glyph": {
+		"value": "",
+		"displayValue": ""
+	},
+	"type": {
+		"value": "67eaf134e7a3320075c2a117c2f6a9d2",
+		"displayValue": [
+			"Widget"
+		]
+	},
+	"paginate": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"max_records": {
+		"value": null,
+		"displayValue": ""
+	},
+	"view_all_page": {
+		"value": "ecc828d3e733320075c2a117c2f6a91f",
+		"displayValue": "announcements"
+	},
+	"use_display_style": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
     </sp_instance>
     <sys_translated_text action="delete_multiple" query="documentkey=8c5621cc1b1b5510074e639bbc4bcb98"/>
 </record_update>

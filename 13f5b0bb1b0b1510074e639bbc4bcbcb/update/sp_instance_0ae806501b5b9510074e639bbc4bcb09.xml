@@ -10,7 +10,7 @@
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">e02a51801b1b5510074e639bbc4bcb2b</sp_column>
+        <sp_column display_value="1">942c20f01bd75110074e639bbc4bcbf1</sp_column>
         <sp_widget display_value="Recent &amp; Popular Items">4fc1dd5387500300e0ef0cf888cb0baa</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -25,8 +25,8 @@
         <url/>
         <widget_parameters><![CDATA[{
 	"limit": {
-		"value": null,
-		"displayValue": ""
+		"value": 4,
+		"displayValue": "4"
 	},
 	"recent_by": {
 		"value": "view",
