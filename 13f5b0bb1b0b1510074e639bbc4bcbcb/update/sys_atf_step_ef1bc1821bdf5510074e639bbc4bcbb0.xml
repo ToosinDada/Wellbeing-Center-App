@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Open a new 'Wellness request' form</description>
+        <display_name>Open a New Form</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Open a New Form">05317cd10b10220050192f15d6673af8</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 15:55:31</sys_created_on>
+        <sys_id>ef1bc1821bdf5510074e639bbc4bcbb0</sys_id>
+        <sys_name>Open a New Form</sys_name>
+        <sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_update_name>sys_atf_step_ef1bc1821bdf5510074e639bbc4bcbb0</sys_update_name>
+        <table>x_938822_wellbeing_wellness_request</table>
+        <test display_value="Wellness Center Test">0b3845021bdf5510074e639bbc4bcb80</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=ef1bc1821bdf5510074e639bbc4bcbb0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ef1bc1821bdf5510074e639bbc4bcbb0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 15:55:31</sys_created_on>
+        <sys_id>856bc1421bdf5510074e639bbc4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 15:55:31</sys_updated_on>
+        <value>x_938822_wellbeing_wellness_request</value>
+        <variable display_value="Table">bb84ed825320220002c6435723dc3400</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ef1bc1821bdf5510074e639bbc4bcbb0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 15:55:31</sys_created_on>
+        <sys_id>c16bc1421bdf5510074e639bbc4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 15:55:31</sys_updated_on>
+        <value/>
+        <variable display_value="View">27d4e1c25320220002c6435723dc3486</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ef1bc1821bdf5510074e639bbc4bcbb0</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 15:55:31</sys_created_on>
+        <sys_id>cd6bc1421bdf5510074e639bbc4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 15:55:31</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">6f2a59a4e7133300b5646ea8c2f6a975</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_05317cd10b10220050192f15d6673af8^id=ef1bc1821bdf5510074e639bbc4bcbb0"/>
+</record_update>

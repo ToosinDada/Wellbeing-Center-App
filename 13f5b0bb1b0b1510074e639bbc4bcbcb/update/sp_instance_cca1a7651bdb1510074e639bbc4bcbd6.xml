@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">685ad5801b1b5510074e639bbc4bcb44</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-21 13:34:57</sys_created_on>
+        <sys_id>cca1a7651bdb1510074e639bbc4bcbd6</sys_id>
+        <sys_name/>
+        <sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_update_name>sp_instance_cca1a7651bdb1510074e639bbc4bcbd6</sys_update_name>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p style=\"text-align: center;\"><a title=\"Connect with Cloud Dimensions team members around the world\" href=\"/community\"><img style=\"max-width: 100%; max-height: 480px;\" src=\"sn_catalog_builder_bridge.png\" alt=\"\" /></a></p>\r\n<h3 style=\"text-align: center;\"><strong>Our Community</strong></h3>\r\n<p style=\"text-align: center;\">Ask your colleagues a question</p>",
+		"displayValue": "<p style=\"text-align: center;\"><a title=\"Connect with Cloud Dimensions team members around the world\" href=\"/community\"><img style=\"max-width: 100%; max-height: 480px;\" src=\"sn_catalog_builder_bridge.png\" alt=\"\" /></a></p>\n<h3 style=\"text-align: center;\"><strong>Our Community</strong></h3>\n<p style=\"text-align: center;\">Ask your colleagues a question</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=cca1a7651bdb1510074e639bbc4bcbd6"/>
+</record_update>

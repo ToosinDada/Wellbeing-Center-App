@@ -10,7 +10,7 @@
         <copied_from_name>Wellbeing Activities</copied_from_name>
         <description>Basic flow for assigning work on wellbeing activities.</description>
         <internal_name>copy_of_wellbeing_activities</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.u_requested_for.first_name","label":"Trigger - Record Created or Updated➛Wellness request Record➛Requested for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created or Updated_1.current.u_requested_for.email","label":"Trigger - Record Created or Updated➛Wellness request Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"7d3a98e8-2bf4-4e6a-959a-b5683a5399d4.__dont_treat_as_error__","label":"4 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7d3a98e8-2bf4-4e6a-959a-b5683a5399d4.__action_status__","label":"4 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7d3a98e8-2bf4-4e6a-959a-b5683a5399d4.email","label":"4 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_requested_for","label":"Trigger - Record Created or Updated➛Wellness request Record➛Requested for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_938822_wellbeing_wellness_request","column_name":"u_requested_for"},{"name":"ddcc54e2-99bb-4b1f-be4d-bd19bb239ce8.__dont_treat_as_error__","label":"1 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddcc54e2-99bb-4b1f-be4d-bd19bb239ce8.__action_status__","label":"1 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddcc54e2-99bb-4b1f-be4d-bd19bb239ce8.Table","label":"1 - Create Task➛Well Task Table","reference":"x_938822_wellbeing_well_task","reference_display":"Well Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddcc54e2-99bb-4b1f-be4d-bd19bb239ce8.Record","label":"1 - Create Task➛Well Task Record","reference":"x_938822_wellbeing_well_task","reference_display":"Well Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ec13521-bec8-458c-8c3d-9d37d525235f.__dont_treat_as_error__","label":"1 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ec13521-bec8-458c-8c3d-9d37d525235f.__action_status__","label":"1 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ec13521-bec8-458c-8c3d-9d37d525235f.state","label":"1 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{}},{"name":"e619a0f8-11c7-4773-90ee-8a38746f5eac.__dont_treat_as_error__","label":"1 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e619a0f8-11c7-4773-90ee-8a38746f5eac.__action_status__","label":"1 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e619a0f8-11c7-4773-90ee-8a38746f5eac.state","label":"1 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"0e10ebaf-9f89-46bf-8832-52241c98eb12.Record","label":"3 - Create Task➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e10ebaf-9f89-46bf-8832-52241c98eb12.Table","label":"3 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e10ebaf-9f89-46bf-8832-52241c98eb12.__action_status__","label":"3 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"0e10ebaf-9f89-46bf-8832-52241c98eb12.__dont_treat_as_error__","label":"3 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"445b7235-f25c-4f53-b28a-2356b1fde868.Record","label":"3 - Create Task➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"445b7235-f25c-4f53-b28a-2356b1fde868.Table","label":"3 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"445b7235-f25c-4f53-b28a-2356b1fde868.__action_status__","label":"3 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"445b7235-f25c-4f53-b28a-2356b1fde868.__dont_treat_as_error__","label":"3 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"e7f070ea-4753-4ce0-a76f-aa1a403d6791.Record","label":"4 - Create Task➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e7f070ea-4753-4ce0-a76f-aa1a403d6791.Table","label":"4 - Create Task➛Wellness request Table","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e7f070ea-4753-4ce0-a76f-aa1a403d6791.__action_status__","label":"4 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e7f070ea-4753-4ce0-a76f-aa1a403d6791.__dont_treat_as_error__","label":"4 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e0020a9-a84c-4c2d-9819-702c21c5b5a9.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e0020a9-a84c-4c2d-9819-702c21c5b5a9.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e0020a9-a84c-4c2d-9819-702c21c5b5a9.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_requested_for.manager","label":"Trigger - Record Created or Updated➛Wellness request Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"09c62e77-90b6-4b8f-954d-b30968840e3a.record","label":"6 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09c62e77-90b6-4b8f-954d-b30968840e3a.table_name","label":"6 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09c62e77-90b6-4b8f-954d-b30968840e3a.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"09c62e77-90b6-4b8f-954d-b30968840e3a.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"558a24bc-dc7a-423d-b0ba-2f40798506f9.record","label":"3 - Update Record➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"558a24bc-dc7a-423d-b0ba-2f40798506f9.table_name","label":"3 - Update Record➛Wellness request Table","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"558a24bc-dc7a-423d-b0ba-2f40798506f9.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"558a24bc-dc7a-423d-b0ba-2f40798506f9.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d75a2324-befc-4adc-b251-0eb8bc85c601.record","label":"6 - Update Record➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d75a2324-befc-4adc-b251-0eb8bc85c601.table_name","label":"6 - Update Record➛Wellness request Table","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d75a2324-befc-4adc-b251-0eb8bc85c601.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d75a2324-befc-4adc-b251-0eb8bc85c601.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.u_requested_for.manager","label":"Trigger - Record Updated➛Wellness request Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"81a71599-916a-4b7b-9be5-8b557fe89420.Catalog Task","label":"5 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"81a71599-916a-4b7b-9be5-8b557fe89420.__action_status__","label":"5 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"81a71599-916a-4b7b-9be5-8b557fe89420.__dont_treat_as_error__","label":"5 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <label_cache>[{"name":"7c5167e9-8f03-4aea-bb95-c6cdd30cdc5b.__dont_treat_as_error__","label":"7 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c5167e9-8f03-4aea-bb95-c6cdd30cdc5b.__action_status__","label":"7 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c5167e9-8f03-4aea-bb95-c6cdd30cdc5b.email","label":"7 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"50978da5-41c8-4015-8e7e-cfaab7e45f25.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"50978da5-41c8-4015-8e7e-cfaab7e45f25.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"50978da5-41c8-4015-8e7e-cfaab7e45f25.table_name","label":"7 - Update Record➛Wellness request Table","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"50978da5-41c8-4015-8e7e-cfaab7e45f25.record","label":"7 - Update Record➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"35694057-d2bb-48c6-904d-dd3d0a04723d.__dont_treat_as_error__","label":"8 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"35694057-d2bb-48c6-904d-dd3d0a04723d.__action_status__","label":"8 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"35694057-d2bb-48c6-904d-dd3d0a04723d.email","label":"8 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"135f312b-af1b-4cd6-9ab6-dfd84d85d255.context","label":"6 - Requested Item Email Notification➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"81e2f59e-fec8-48f2-9478-a8a18e965040.rejected","label":"6 - Requested Item Manager Approval➛Rejected","reference_display":"Rejected","type":"string","base_type":"string","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"81e2f59e-fec8-48f2-9478-a8a18e965040.context","label":"6 - Requested Item Manager Approval➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Wellness request Table","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"92faaee4-b04d-4de4-b1e5-7ada7a28e98a.__dont_treat_as_error__","label":"4 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92faaee4-b04d-4de4-b1e5-7ada7a28e98a.__action_status__","label":"4 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92faaee4-b04d-4de4-b1e5-7ada7a28e98a.Table","label":"4 - Create Task➛Wellness request Table","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92faaee4-b04d-4de4-b1e5-7ada7a28e98a.Record","label":"4 - Create Task➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.a8f98bb0eb32010045e1a5115206fe3a}}","label":"Abraham Lincoln","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.u_requested_for.first_name","label":"Trigger - Record Created or Updated➛Wellness request Record➛Requested for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created or Updated_1.current.u_requested_for.email","label":"Trigger - Record Created or Updated➛Wellness request Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"7d3a98e8-2bf4-4e6a-959a-b5683a5399d4.__dont_treat_as_error__","label":"5 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7d3a98e8-2bf4-4e6a-959a-b5683a5399d4.__action_status__","label":"5 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7d3a98e8-2bf4-4e6a-959a-b5683a5399d4.email","label":"5 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_requested_for","label":"Trigger - Record Created or Updated➛Wellness request Record➛Requested for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_938822_wellbeing_wellness_request","column_name":"u_requested_for"},{"name":"ddcc54e2-99bb-4b1f-be4d-bd19bb239ce8.__dont_treat_as_error__","label":"1 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddcc54e2-99bb-4b1f-be4d-bd19bb239ce8.__action_status__","label":"1 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddcc54e2-99bb-4b1f-be4d-bd19bb239ce8.Table","label":"1 - Create Task➛Well Task Table","reference":"x_938822_wellbeing_well_task","reference_display":"Wellness Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddcc54e2-99bb-4b1f-be4d-bd19bb239ce8.Record","label":"1 - Create Task➛Well Task Record","reference":"x_938822_wellbeing_well_task","reference_display":"Wellness Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ec13521-bec8-458c-8c3d-9d37d525235f.__dont_treat_as_error__","label":"1 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ec13521-bec8-458c-8c3d-9d37d525235f.__action_status__","label":"1 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ec13521-bec8-458c-8c3d-9d37d525235f.state","label":"1 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{}},{"name":"e619a0f8-11c7-4773-90ee-8a38746f5eac.__dont_treat_as_error__","label":"1 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e619a0f8-11c7-4773-90ee-8a38746f5eac.__action_status__","label":"1 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e619a0f8-11c7-4773-90ee-8a38746f5eac.state","label":"1 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"0e10ebaf-9f89-46bf-8832-52241c98eb12.Record","label":"3 - Create Task➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e10ebaf-9f89-46bf-8832-52241c98eb12.Table","label":"3 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e10ebaf-9f89-46bf-8832-52241c98eb12.__action_status__","label":"3 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"0e10ebaf-9f89-46bf-8832-52241c98eb12.__dont_treat_as_error__","label":"3 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"445b7235-f25c-4f53-b28a-2356b1fde868.Record","label":"3 - Create Task➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"445b7235-f25c-4f53-b28a-2356b1fde868.Table","label":"3 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"445b7235-f25c-4f53-b28a-2356b1fde868.__action_status__","label":"3 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"445b7235-f25c-4f53-b28a-2356b1fde868.__dont_treat_as_error__","label":"3 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"e7f070ea-4753-4ce0-a76f-aa1a403d6791.Record","label":"4 - Create Task➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e7f070ea-4753-4ce0-a76f-aa1a403d6791.Table","label":"4 - Create Task➛Wellness request Table","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e7f070ea-4753-4ce0-a76f-aa1a403d6791.__action_status__","label":"4 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e7f070ea-4753-4ce0-a76f-aa1a403d6791.__dont_treat_as_error__","label":"4 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e0020a9-a84c-4c2d-9819-702c21c5b5a9.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e0020a9-a84c-4c2d-9819-702c21c5b5a9.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e0020a9-a84c-4c2d-9819-702c21c5b5a9.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_requested_for.manager","label":"Trigger - Record Created or Updated➛Wellness request Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"09c62e77-90b6-4b8f-954d-b30968840e3a.record","label":"6 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09c62e77-90b6-4b8f-954d-b30968840e3a.table_name","label":"6 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09c62e77-90b6-4b8f-954d-b30968840e3a.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"09c62e77-90b6-4b8f-954d-b30968840e3a.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"558a24bc-dc7a-423d-b0ba-2f40798506f9.record","label":"3 - Update Record➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"558a24bc-dc7a-423d-b0ba-2f40798506f9.table_name","label":"3 - Update Record➛Wellness request Table","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"558a24bc-dc7a-423d-b0ba-2f40798506f9.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"558a24bc-dc7a-423d-b0ba-2f40798506f9.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d75a2324-befc-4adc-b251-0eb8bc85c601.record","label":"6 - Update Record➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d75a2324-befc-4adc-b251-0eb8bc85c601.table_name","label":"6 - Update Record➛Wellness request Table","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d75a2324-befc-4adc-b251-0eb8bc85c601.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d75a2324-befc-4adc-b251-0eb8bc85c601.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.u_requested_for.manager","label":"Trigger - Record Updated➛Wellness request Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"81a71599-916a-4b7b-9be5-8b557fe89420.Catalog Task","label":"4 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"81a71599-916a-4b7b-9be5-8b557fe89420.__action_status__","label":"4 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"81a71599-916a-4b7b-9be5-8b557fe89420.__dont_treat_as_error__","label":"4 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1b896a4a-fd47-40c1-8e5e-af15fc168a13.__action_status__","label":"6 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1b896a4a-fd47-40c1-8e5e-af15fc168a13.__dont_treat_as_error__","label":"6 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"def6e047-d376-4bd9-a1c8-3c4f799942bc.email","label":"8 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"def6e047-d376-4bd9-a1c8-3c4f799942bc.__action_status__","label":"8 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"def6e047-d376-4bd9-a1c8-3c4f799942bc.__dont_treat_as_error__","label":"8 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_requested_for.active","label":"Trigger - Record Created or Updated➛Wellness request Record➛Requested for➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"sys_user","column_name":"active"}]</label_cache>
         <master_snapshot>74b370bc1bd75110074e639bbc4bcbda</master_snapshot>
         <name>Wellbeing Activities_2</name>
         <natlang/>
@@ -72,14 +72,14 @@
         <identifier>7113347c1bd75110074e639bbc4bcb58</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:59:38</sys_created_on>
-        <sys_id>01b3b0bc1bd75110074e639bbc4bcba2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2022-11-22 17:23:07</sys_created_on>
+        <sys_id>c47f950a1b139510074e639bbc4bcb17</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:38</sys_updated_on>
+        <sys_updated_on>2022-11-22 17:23:07</sys_updated_on>
         <trigger display_value="">0d509e181b5b9510074e639bbc4bcb94</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=7113347c1bd75110074e639bbc4bcb58^sys_idNOT IN01b3b0bc1bd75110074e639bbc4bcba2"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=7113347c1bd75110074e639bbc4bcb58^sys_idNOT INc47f950a1b139510074e639bbc4bcb17"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=7113347c1bd75110074e639bbc4bcb58^sys_idNOT IN8213347c1bd75110074e639bbc4bcb90"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -90,10 +90,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:56:58</sys_created_on>
         <sys_id>8213347c1bd75110074e639bbc4bcb90</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>61</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:38</sys_updated_on>
+        <sys_updated_on>2022-11-22 17:23:07</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -207,14 +207,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:56:57</sys_created_on>
         <sys_id>0a13347c1bd75110074e639bbc4bcb65</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:38</sys_updated_on>
+        <sys_updated_on>2022-11-22 17:23:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -290,14 +290,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:56:57</sys_created_on>
         <sys_id>4613347c1bd75110074e639bbc4bcb61</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:38</sys_updated_on>
+        <sys_updated_on>2022-11-22 17:23:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -395,7 +395,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=7113347c1bd75110074e639bbc4bcb58"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=7113347c1bd75110074e639bbc4bcb58"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=7113347c1bd75110074e639bbc4bcb58^sys_idNOT IN4a13347c1bd75110074e639bbc4bcb84,8a13347c1bd75110074e639bbc4bcb7c,8e13347c1bd75110074e639bbc4bcb8c,a093bc7c1bd75110074e639bbc4bcb01"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=7113347c1bd75110074e639bbc4bcb58^sys_idNOT IN4a13347c1bd75110074e639bbc4bcb84,5e2f9dc61b139510074e639bbc4bcb32,84c3b2691b1b1510074e639bbc4bcbf6,8a13347c1bd75110074e639bbc4bcb7c,8e13347c1bd75110074e639bbc4bcb8c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -410,10 +410,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:56:58</sys_created_on>
         <sys_id>4a13347c1bd75110074e639bbc4bcb84</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>132</sys_mod_count>
         <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:38</sys_updated_on>
+        <sys_updated_on>2022-11-22 17:23:07</sys_updated_on>
         <ui_id>558a24bc-dc7a-423d-b0ba-2f40798506f9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4a13347c1bd75110074e639bbc4bcb84"/>
@@ -439,10 +439,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:56:58</sys_created_on>
         <sys_id>4a13347c1bd75110074e639bbc4bcb86</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:56:58</sys_updated_on>
-        <value>state=3</value>
+        <sys_updated_on>2022-11-20 19:55:17</sys_updated_on>
+        <value>state=2</value>
         <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=4a13347c1bd75110074e639bbc4bcb84"/>
@@ -487,6 +487,199 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Wellbeing Activities_2">7113347c1bd75110074e639bbc4bcb58</flow>
+        <order>7</order>
+        <parent_ui_id>79c02b60-cac1-4803-a5c5-4010d7ad4d87</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 17:21:54</sys_created_on>
+        <sys_id>5e2f9dc61b139510074e639bbc4bcb32</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 17:23:07</sys_updated_on>
+        <ui_id>7c5167e9-8f03-4aea-bb95-c6cdd30cdc5b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5e2f9dc61b139510074e639bbc4bcb32"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5e2f9dc61b139510074e639bbc4bcb32</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 17:21:54</sys_created_on>
+        <sys_id>1e2f9dc61b139510074e639bbc4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 17:21:54</sys_updated_on>
+        <value>Rejected﻿</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5e2f9dc61b139510074e639bbc4bcb32</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 17:21:54</sys_created_on>
+        <sys_id>5a2f9dc61b139510074e639bbc4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 17:21:54</sys_updated_on>
+        <value>x_938822_wellbeing_wellness_request</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5e2f9dc61b139510074e639bbc4bcb32</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 17:21:54</sys_created_on>
+        <sys_id>962f9dc61b139510074e639bbc4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 17:21:54</sys_updated_on>
+        <value>&lt;p&gt;Dear requester,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;We are sorry to inform you that your resquest has been rejected. please contact to your manager to discuss about that .Once you are done this we are happy to procees your request. &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Kind regards,&lt;/p&gt;
+&lt;p&gt;Wellness Team&lt;/p&gt;</value>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5e2f9dc61b139510074e639bbc4bcb32"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>5e2f9dc61b139510074e639bbc4bcb32</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 17:21:54</sys_created_on>
+        <sys_id>da2f9dc61b139510074e639bbc4bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 17:21:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>5e2f9dc61b139510074e639bbc4bcb32</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 17:21:54</sys_created_on>
+        <sys_id>162f9dc61b139510074e639bbc4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 17:21:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>5e2f9dc61b139510074e639bbc4bcb32</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 17:21:54</sys_created_on>
+        <sys_id>1a2f9dc61b139510074e639bbc4bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 17:21:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current.u_requested_for.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5e2f9dc61b139510074e639bbc4bcb32</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 17:21:54</sys_created_on>
+        <sys_id>9e2f9dc61b139510074e639bbc4bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 17:21:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5e2f9dc61b139510074e639bbc4bcb32</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 17:21:54</sys_created_on>
+        <sys_id>522f9dc61b139510074e639bbc4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 17:21:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5e2f9dc61b139510074e639bbc4bcb32"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5e2f9dc61b139510074e639bbc4bcb32"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Wellbeing Activities_2">7113347c1bd75110074e639bbc4bcb58</flow>
+        <order>4</order>
+        <parent_ui_id>1f290084-bb0c-4579-b9e6-4da49b84b1d7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-21 10:14:31</sys_created_on>
+        <sys_id>84c3b2691b1b1510074e639bbc4bcbf6</sys_id>
+        <sys_mod_count>100</sys_mod_count>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 17:23:07</sys_updated_on>
+        <ui_id>92faaee4-b04d-4de4-b1e5-7ada7a28e98a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=84c3b2691b1b1510074e639bbc4bcbf6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>84c3b2691b1b1510074e639bbc4bcbf6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-21 10:14:31</sys_created_on>
+        <sys_id>88c3b2691b1b1510074e639bbc4bcbf8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 14:00:47</sys_updated_on>
+        <value>event_status=14^assignment_group={"display":"Service Desk","value":"d625dccec0a8016700a222a0f7900d06","sys_id":"d625dccec0a8016700a222a0f7900d06"}^short_description=book the activity for requester﻿</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=84c3b2691b1b1510074e639bbc4bcbf6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>84c3b2691b1b1510074e639bbc4bcbf6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-21 10:14:31</sys_created_on>
+        <sys_id>08c3b2691b1b1510074e639bbc4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:14:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>84c3b2691b1b1510074e639bbc4bcbf6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-21 10:14:31</sys_created_on>
+        <sys_id>40c3b2691b1b1510074e639bbc4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:14:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>{{Created or Updated_1.table_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=84c3b2691b1b1510074e639bbc4bcbf6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=84c3b2691b1b1510074e639bbc4bcbf6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
         <comment/>
@@ -498,10 +691,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:56:58</sys_created_on>
         <sys_id>8a13347c1bd75110074e639bbc4bcb7c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>132</sys_mod_count>
         <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:38</sys_updated_on>
+        <sys_updated_on>2022-11-22 17:23:07</sys_updated_on>
         <ui_id>7e0020a9-a84c-4c2d-9819-702c21c5b5a9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8a13347c1bd75110074e639bbc4bcb7c"/>
@@ -568,11 +761,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:56:58</sys_created_on>
         <sys_id>ca13347c1bd75110074e639bbc4bcb7f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:56:58</sys_updated_on>
+        <sys_updated_on>2022-11-21 10:00:16</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>ApprovesRejectsAnyU[{{static.62826bf03710200044e0bfc8bcbe5df1}}]</value>
+        <value>ApprovesRejectsAnyU[{{static.a8f98bb0eb32010045e1a5115206fe3a}}]</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>approval_field</field>
@@ -644,16 +837,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Wellbeing Activities_2">7113347c1bd75110074e639bbc4bcb58</flow>
-        <order>4</order>
+        <order>5</order>
         <parent_ui_id>1f290084-bb0c-4579-b9e6-4da49b84b1d7</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:56:58</sys_created_on>
         <sys_id>8e13347c1bd75110074e639bbc4bcb8c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>132</sys_mod_count>
         <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:38</sys_updated_on>
+        <sys_updated_on>2022-11-22 17:23:07</sys_updated_on>
         <ui_id>7d3a98e8-2bf4-4e6a-959a-b5683a5399d4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8e13347c1bd75110074e639bbc4bcb8c"/>
@@ -685,6 +878,20 @@
         <value/>
         <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
     </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8e13347c1bd75110074e639bbc4bcb8c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 14:51:06</sys_created_on>
+        <sys_id>69ac7c461b9f5510074e639bbc4bcb9a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 16:54:55</sys_updated_on>
+        <value>x_938822_wellbeing_wellness_request</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=8e13347c1bd75110074e639bbc4bcb8c"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_body</field>
@@ -692,21 +899,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:56:58</sys_created_on>
         <sys_id>4213347c1bd75110074e639bbc4bcb8f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:56:58</sys_updated_on>
+        <sys_updated_on>2022-11-22 14:36:08</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Greetings!&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:dfeeeff0-57ce-4921-b57f-81ae537e4533}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:dfeeeff0-57ce-4921-b57f-81ae537e4533}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Wellness request Record &amp;gt; Requested for &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_dfeeeff0-57ce-4921-b57f-81ae537e4533" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        <value>&lt;p data-tinymcerootblock=""&gt;Greetings!&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:dfeeeff0-57ce-4921-b57f-81ae537e4533}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:dfeeeff0-57ce-4921-b57f-81ae537e4533}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Wellness request Record &amp;gt; Requested for &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_dfeeeff0-57ce-4921-b57f-81ae537e4533" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;Dear ${requested for},&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;Thank you for your request. Your request of The ${item_type} is been recieved and our support team will be looking at it. Once it has been completed , we will get in touch with you as soon as possible.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Thank you for your request. Your request is been recieved and our support team will be getting in touch with you about your activity&amp;nbsp;as soon as possible&amp;nbsp; once it has been completed.&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;Kind regards,&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;&lt;!-- x-tinymce/html --&gt;&lt;/p&gt;
-&lt;p&gt;Wellbeing Center Team&lt;/p&gt;</value>
+&lt;p&gt;Service Desk Team&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_cc</field>
@@ -738,104 +940,53 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:56:58</sys_created_on>
         <sys_id>8e13347c1bd75110074e639bbc4bcb8e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:56:58</sys_updated_on>
+        <sys_updated_on>2022-11-22 16:52:07</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value>{{Created or Updated_1.current.u_requested_for.email}} </value>
     </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=8e13347c1bd75110074e639bbc4bcb8c"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8e13347c1bd75110074e639bbc4bcb8c"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
-        <action_type_parent/>
-        <comment/>
-        <display_text/>
-        <flow display_value="Wellbeing Activities_2">7113347c1bd75110074e639bbc4bcb58</flow>
-        <order>5</order>
-        <parent_ui_id>1f290084-bb0c-4579-b9e6-4da49b84b1d7</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:59:03</sys_created_on>
-        <sys_id>a093bc7c1bd75110074e639bbc4bcb01</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:38</sys_updated_on>
-        <ui_id>81a71599-916a-4b7b-9be5-8b557fe89420</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=a093bc7c1bd75110074e639bbc4bcb01"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>a093bc7c1bd75110074e639bbc4bcb01</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:59:03</sys_created_on>
-        <sys_id>2893bc7c1bd75110074e639bbc4bcb03</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:03</sys_updated_on>
-        <value>book the activity﻿ task</value>
-        <variable display_value="Short Description">3751fd0e73141300612c273ffff6a7a6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>a093bc7c1bd75110074e639bbc4bcb01</document_key>
-        <order>3</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:59:03</sys_created_on>
-        <sys_id>e893bc7c1bd75110074e639bbc4bcb03</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:03</sys_updated_on>
-        <value>assigned_to={"display":"Service Desk","value":"413a4d35eb32010045e1a5115206fe6b","table":"sys_user","sys_id":"413a4d35eb32010045e1a5115206fe6b"}</value>
-        <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=a093bc7c1bd75110074e639bbc4bcb01"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_fields</field>
-        <id>a093bc7c1bd75110074e639bbc4bcb01</id>
+        <field>record</field>
+        <id>8e13347c1bd75110074e639bbc4bcb8c</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:59:03</sys_created_on>
-        <sys_id>a493bc7c1bd75110074e639bbc4bcb03</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2022-11-22 14:51:06</sys_created_on>
+        <sys_id>21ac7c461b9f5510074e639bbc4bcb9a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:03</sys_updated_on>
-        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_requested_item</field>
-        <id>a093bc7c1bd75110074e639bbc4bcb01</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:59:03</sys_created_on>
-        <sys_id>e093bc7c1bd75110074e639bbc4bcb03</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:03</sys_updated_on>
-        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <sys_updated_on>2022-11-22 16:54:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value>{{Created or Updated_1.current}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_short_description</field>
-        <id>a093bc7c1bd75110074e639bbc4bcb01</id>
+        <field>table_name</field>
+        <id>8e13347c1bd75110074e639bbc4bcb8c</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:59:03</sys_created_on>
-        <sys_id>2093bc7c1bd75110074e639bbc4bcb03</sys_id>
+        <sys_created_on>2022-11-22 14:51:06</sys_created_on>
+        <sys_id>e5ac7c461b9f5510074e639bbc4bcb9a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:03</sys_updated_on>
-        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <sys_updated_on>2022-11-22 14:51:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=a093bc7c1bd75110074e639bbc4bcb01"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a093bc7c1bd75110074e639bbc4bcb01"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8e13347c1bd75110074e639bbc4bcb8c^sys_idNOT INde39bc021b9f5510074e639bbc4bcbfe"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_body</input_name>
+        <instance>8e13347c1bd75110074e639bbc4bcb8c</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_body":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 14:36:08</sys_created_on>
+        <sys_id>de39bc021b9f5510074e639bbc4bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 14:36:08</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8e13347c1bd75110074e639bbc4bcb8c"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=7113347c1bd75110074e639bbc4bcb58"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=7113347c1bd75110074e639bbc4bcb58^sys_idNOT IN0213347c1bd75110074e639bbc4bcb6f,c613347c1bd75110074e639bbc4bcb74,ec93bc7c1bd75110074e639bbc4bcb0a"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=7113347c1bd75110074e639bbc4bcb58^sys_idNOT IN0213347c1bd75110074e639bbc4bcb6f,de2f9dc61b139510074e639bbc4bcb2a"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">7f4e9f0c1bdf5510074e639bbc4bcbf2</block>
         <comment/>
@@ -858,10 +1009,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:56:57</sys_created_on>
         <sys_id>0213347c1bd75110074e639bbc4bcb6f</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:38</sys_updated_on>
+        <sys_updated_on>2022-11-22 17:23:07</sys_updated_on>
         <ui_id>1f290084-bb0c-4579-b9e6-4da49b84b1d7</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -888,11 +1039,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:56:58</sys_created_on>
         <sys_id>ce13347c1bd75110074e639bbc4bcb72</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:56:58</sys_updated_on>
+        <sys_updated_on>2022-11-22 14:42:10</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{7e0020a9-a84c-4c2d-9819-702c21c5b5a9.approval_state}}=approved</value>
+        <value>{{7e0020a9-a84c-4c2d-9819-702c21c5b5a9.approval_state}}=approved^NQ{{7e0020a9-a84c-4c2d-9819-702c21c5b5a9.approval_state}}=rejected</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -909,9 +1060,9 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=0213347c1bd75110074e639bbc4bcb6f"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=0213347c1bd75110074e639bbc4bcb6f"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">d0aa0e901b5b9510074e639bbc4bcbd4</block>
+        <block display_value="">962f9dc61b139510074e639bbc4bcb2a</block>
         <comment/>
-        <connected_to/>
+        <connected_to>1f290084-bb0c-4579-b9e6-4da49b84b1d7</connected_to>
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
@@ -920,99 +1071,27 @@
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <inputs/>
-        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:56:58</sys_created_on>
-        <sys_id>c613347c1bd75110074e639bbc4bcb74</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_created_on>2022-11-22 17:21:54</sys_created_on>
+        <sys_id>de2f9dc61b139510074e639bbc4bcb2a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:38</sys_updated_on>
-        <ui_id>e3ae5efd-719a-457c-9719-5d6745cb3cda</ui_id>
+        <sys_updated_on>2022-11-22 17:23:07</sys_updated_on>
+        <ui_id>79c02b60-cac1-4803-a5c5-4010d7ad4d87</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=c613347c1bd75110074e639bbc4bcb74"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>c613347c1bd75110074e639bbc4bcb74</document_key>
-        <order>10</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:56:58</sys_created_on>
-        <sys_id>4a13347c1bd75110074e639bbc4bcb77</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:56:58</sys_updated_on>
-        <value>Requested Item Rejected</value>
-        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=c613347c1bd75110074e639bbc4bcb74"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition</field>
-        <id>c613347c1bd75110074e639bbc4bcb74</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:56:58</sys_created_on>
-        <sys_id>c613347c1bd75110074e639bbc4bcb77</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:56:58</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{7e0020a9-a84c-4c2d-9819-702c21c5b5a9.approval_state}}=rejected</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition_name</field>
-        <id>c613347c1bd75110074e639bbc4bcb74</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:56:58</sys_created_on>
-        <sys_id>0613347c1bd75110074e639bbc4bcb77</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:56:58</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c613347c1bd75110074e639bbc4bcb74"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=c613347c1bd75110074e639bbc4bcb74"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">a093bc7c1bd75110074e639bbc4bcb0a</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="Wellbeing Activities_2">7113347c1bd75110074e639bbc4bcb58</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>7</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id>e3ae5efd-719a-457c-9719-5d6745cb3cda</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:59:03</sys_created_on>
-        <sys_id>ec93bc7c1bd75110074e639bbc4bcb0a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:38</sys_updated_on>
-        <ui_id>14a8871b-2561-436a-88f1-aa9be2792506</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=ec93bc7c1bd75110074e639bbc4bcb0a"/>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ec93bc7c1bd75110074e639bbc4bcb0a"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=ec93bc7c1bd75110074e639bbc4bcb0a"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7113347c1bd75110074e639bbc4bcb58^sys_idNOT IN8613347c1bd75110074e639bbc4bcb9a,ce13347c1bd75110074e639bbc4bcb99"/>
+    <sys_variable_value action="delete_multiple" query="document_key=de2f9dc61b139510074e639bbc4bcb2a"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=de2f9dc61b139510074e639bbc4bcb2a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=de2f9dc61b139510074e639bbc4bcb2a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7113347c1bd75110074e639bbc4bcb58^sys_idNOT IN8613347c1bd75110074e639bbc4bcb9a,a1ac7c461b9f5510074e639bbc4bcb9d,ce13347c1bd75110074e639bbc4bcb99"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>7113347c1bd75110074e639bbc4bcb58</attached_to>
         <extra_info/>
@@ -1029,6 +1108,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>9f451b75-9326-4bac-8467-8ac218449dbc</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>7113347c1bd75110074e639bbc4bcb58</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 14:51:06</sys_created_on>
+        <sys_id>a1ac7c461b9f5510074e639bbc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 14:51:06</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>cadfc0cd-e9ee-4f90-ae7b-b4b29a6a4346</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>7113347c1bd75110074e639bbc4bcb58</attached_to>
@@ -1124,7 +1220,7 @@
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=7113347c1bd75110074e639bbc4bcb58^sys_idNOT IN49b3b0bc1bd75110074e639bbc4bcba2"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan/>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"49b3b0bc1bd75110074e639bbc4bcba2","name":"plan","plan_signature":null}}</plan>
         <plan_id>7113347c1bd75110074e639bbc4bcb58</plan_id>
         <snapshot>74b370bc1bd75110074e639bbc4bcbda</snapshot>
         <sys_created_by>admin</sys_created_by>
@@ -1132,11 +1228,11 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>49b3b0bc1bd75110074e639bbc4bcba2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:38</sys_updated_on>
+        <sys_updated_on>2022-11-22 17:10:38</sys_updated_on>
         <trigger display_value="">0d509e181b5b9510074e639bbc4bcb94</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=7113347c1bd75110074e639bbc4bcb58"/>
@@ -1151,7 +1247,7 @@
         <copied_from_name/>
         <description>Basic flow for assigning work on wellbeing activities.</description>
         <internal_name>wellbeing_activities_2</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.u_requested_for.first_name","label":"Trigger - Record Created or Updated➛Wellness request Record➛Requested for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created or Updated_1.current.u_requested_for.email","label":"Trigger - Record Created or Updated➛Wellness request Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"7d3a98e8-2bf4-4e6a-959a-b5683a5399d4.__dont_treat_as_error__","label":"4 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7d3a98e8-2bf4-4e6a-959a-b5683a5399d4.__action_status__","label":"4 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7d3a98e8-2bf4-4e6a-959a-b5683a5399d4.email","label":"4 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_requested_for","label":"Trigger - Record Created or Updated➛Wellness request Record➛Requested for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_938822_wellbeing_wellness_request","column_name":"u_requested_for"},{"name":"ddcc54e2-99bb-4b1f-be4d-bd19bb239ce8.__dont_treat_as_error__","label":"1 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddcc54e2-99bb-4b1f-be4d-bd19bb239ce8.__action_status__","label":"1 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddcc54e2-99bb-4b1f-be4d-bd19bb239ce8.Table","label":"1 - Create Task➛Well Task Table","reference":"x_938822_wellbeing_well_task","reference_display":"Well Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddcc54e2-99bb-4b1f-be4d-bd19bb239ce8.Record","label":"1 - Create Task➛Well Task Record","reference":"x_938822_wellbeing_well_task","reference_display":"Well Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ec13521-bec8-458c-8c3d-9d37d525235f.__dont_treat_as_error__","label":"1 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ec13521-bec8-458c-8c3d-9d37d525235f.__action_status__","label":"1 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ec13521-bec8-458c-8c3d-9d37d525235f.state","label":"1 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{}},{"name":"e619a0f8-11c7-4773-90ee-8a38746f5eac.__dont_treat_as_error__","label":"1 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e619a0f8-11c7-4773-90ee-8a38746f5eac.__action_status__","label":"1 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e619a0f8-11c7-4773-90ee-8a38746f5eac.state","label":"1 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"0e10ebaf-9f89-46bf-8832-52241c98eb12.Record","label":"3 - Create Task➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e10ebaf-9f89-46bf-8832-52241c98eb12.Table","label":"3 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e10ebaf-9f89-46bf-8832-52241c98eb12.__action_status__","label":"3 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"0e10ebaf-9f89-46bf-8832-52241c98eb12.__dont_treat_as_error__","label":"3 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"445b7235-f25c-4f53-b28a-2356b1fde868.Record","label":"3 - Create Task➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"445b7235-f25c-4f53-b28a-2356b1fde868.Table","label":"3 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"445b7235-f25c-4f53-b28a-2356b1fde868.__action_status__","label":"3 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"445b7235-f25c-4f53-b28a-2356b1fde868.__dont_treat_as_error__","label":"3 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"e7f070ea-4753-4ce0-a76f-aa1a403d6791.Record","label":"4 - Create Task➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e7f070ea-4753-4ce0-a76f-aa1a403d6791.Table","label":"4 - Create Task➛Wellness request Table","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e7f070ea-4753-4ce0-a76f-aa1a403d6791.__action_status__","label":"4 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e7f070ea-4753-4ce0-a76f-aa1a403d6791.__dont_treat_as_error__","label":"4 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e0020a9-a84c-4c2d-9819-702c21c5b5a9.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e0020a9-a84c-4c2d-9819-702c21c5b5a9.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e0020a9-a84c-4c2d-9819-702c21c5b5a9.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_requested_for.manager","label":"Trigger - Record Created or Updated➛Wellness request Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"09c62e77-90b6-4b8f-954d-b30968840e3a.record","label":"6 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09c62e77-90b6-4b8f-954d-b30968840e3a.table_name","label":"6 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09c62e77-90b6-4b8f-954d-b30968840e3a.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"09c62e77-90b6-4b8f-954d-b30968840e3a.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"558a24bc-dc7a-423d-b0ba-2f40798506f9.record","label":"3 - Update Record➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"558a24bc-dc7a-423d-b0ba-2f40798506f9.table_name","label":"3 - Update Record➛Wellness request Table","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"558a24bc-dc7a-423d-b0ba-2f40798506f9.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"558a24bc-dc7a-423d-b0ba-2f40798506f9.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d75a2324-befc-4adc-b251-0eb8bc85c601.record","label":"6 - Update Record➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d75a2324-befc-4adc-b251-0eb8bc85c601.table_name","label":"6 - Update Record➛Wellness request Table","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d75a2324-befc-4adc-b251-0eb8bc85c601.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d75a2324-befc-4adc-b251-0eb8bc85c601.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.u_requested_for.manager","label":"Trigger - Record Updated➛Wellness request Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"81a71599-916a-4b7b-9be5-8b557fe89420.Catalog Task","label":"5 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"81a71599-916a-4b7b-9be5-8b557fe89420.__action_status__","label":"5 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"81a71599-916a-4b7b-9be5-8b557fe89420.__dont_treat_as_error__","label":"5 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <label_cache>[{"name":"7c5167e9-8f03-4aea-bb95-c6cdd30cdc5b.__dont_treat_as_error__","label":"7 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c5167e9-8f03-4aea-bb95-c6cdd30cdc5b.__action_status__","label":"7 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c5167e9-8f03-4aea-bb95-c6cdd30cdc5b.email","label":"7 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"50978da5-41c8-4015-8e7e-cfaab7e45f25.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"50978da5-41c8-4015-8e7e-cfaab7e45f25.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"50978da5-41c8-4015-8e7e-cfaab7e45f25.table_name","label":"7 - Update Record➛Wellness request Table","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"50978da5-41c8-4015-8e7e-cfaab7e45f25.record","label":"7 - Update Record➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"35694057-d2bb-48c6-904d-dd3d0a04723d.__dont_treat_as_error__","label":"8 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"35694057-d2bb-48c6-904d-dd3d0a04723d.__action_status__","label":"8 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"35694057-d2bb-48c6-904d-dd3d0a04723d.email","label":"8 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"135f312b-af1b-4cd6-9ab6-dfd84d85d255.context","label":"6 - Requested Item Email Notification➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"81e2f59e-fec8-48f2-9478-a8a18e965040.rejected","label":"6 - Requested Item Manager Approval➛Rejected","reference_display":"Rejected","type":"string","base_type":"string","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"81e2f59e-fec8-48f2-9478-a8a18e965040.context","label":"6 - Requested Item Manager Approval➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Wellness request Table","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"92faaee4-b04d-4de4-b1e5-7ada7a28e98a.__dont_treat_as_error__","label":"4 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92faaee4-b04d-4de4-b1e5-7ada7a28e98a.__action_status__","label":"4 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92faaee4-b04d-4de4-b1e5-7ada7a28e98a.Table","label":"4 - Create Task➛Wellness request Table","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92faaee4-b04d-4de4-b1e5-7ada7a28e98a.Record","label":"4 - Create Task➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.a8f98bb0eb32010045e1a5115206fe3a}}","label":"Abraham Lincoln","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.u_requested_for.first_name","label":"Trigger - Record Created or Updated➛Wellness request Record➛Requested for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created or Updated_1.current.u_requested_for.email","label":"Trigger - Record Created or Updated➛Wellness request Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"7d3a98e8-2bf4-4e6a-959a-b5683a5399d4.__dont_treat_as_error__","label":"5 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7d3a98e8-2bf4-4e6a-959a-b5683a5399d4.__action_status__","label":"5 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7d3a98e8-2bf4-4e6a-959a-b5683a5399d4.email","label":"5 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_requested_for","label":"Trigger - Record Created or Updated➛Wellness request Record➛Requested for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_938822_wellbeing_wellness_request","column_name":"u_requested_for"},{"name":"ddcc54e2-99bb-4b1f-be4d-bd19bb239ce8.__dont_treat_as_error__","label":"1 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddcc54e2-99bb-4b1f-be4d-bd19bb239ce8.__action_status__","label":"1 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddcc54e2-99bb-4b1f-be4d-bd19bb239ce8.Table","label":"1 - Create Task➛Well Task Table","reference":"x_938822_wellbeing_well_task","reference_display":"Wellness Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddcc54e2-99bb-4b1f-be4d-bd19bb239ce8.Record","label":"1 - Create Task➛Well Task Record","reference":"x_938822_wellbeing_well_task","reference_display":"Wellness Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ec13521-bec8-458c-8c3d-9d37d525235f.__dont_treat_as_error__","label":"1 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ec13521-bec8-458c-8c3d-9d37d525235f.__action_status__","label":"1 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ec13521-bec8-458c-8c3d-9d37d525235f.state","label":"1 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{}},{"name":"e619a0f8-11c7-4773-90ee-8a38746f5eac.__dont_treat_as_error__","label":"1 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e619a0f8-11c7-4773-90ee-8a38746f5eac.__action_status__","label":"1 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e619a0f8-11c7-4773-90ee-8a38746f5eac.state","label":"1 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"0e10ebaf-9f89-46bf-8832-52241c98eb12.Record","label":"3 - Create Task➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e10ebaf-9f89-46bf-8832-52241c98eb12.Table","label":"3 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e10ebaf-9f89-46bf-8832-52241c98eb12.__action_status__","label":"3 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"0e10ebaf-9f89-46bf-8832-52241c98eb12.__dont_treat_as_error__","label":"3 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"445b7235-f25c-4f53-b28a-2356b1fde868.Record","label":"3 - Create Task➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"445b7235-f25c-4f53-b28a-2356b1fde868.Table","label":"3 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"445b7235-f25c-4f53-b28a-2356b1fde868.__action_status__","label":"3 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"445b7235-f25c-4f53-b28a-2356b1fde868.__dont_treat_as_error__","label":"3 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"e7f070ea-4753-4ce0-a76f-aa1a403d6791.Record","label":"4 - Create Task➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e7f070ea-4753-4ce0-a76f-aa1a403d6791.Table","label":"4 - Create Task➛Wellness request Table","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e7f070ea-4753-4ce0-a76f-aa1a403d6791.__action_status__","label":"4 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e7f070ea-4753-4ce0-a76f-aa1a403d6791.__dont_treat_as_error__","label":"4 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e0020a9-a84c-4c2d-9819-702c21c5b5a9.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e0020a9-a84c-4c2d-9819-702c21c5b5a9.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e0020a9-a84c-4c2d-9819-702c21c5b5a9.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_requested_for.manager","label":"Trigger - Record Created or Updated➛Wellness request Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"09c62e77-90b6-4b8f-954d-b30968840e3a.record","label":"6 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09c62e77-90b6-4b8f-954d-b30968840e3a.table_name","label":"6 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"09c62e77-90b6-4b8f-954d-b30968840e3a.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"09c62e77-90b6-4b8f-954d-b30968840e3a.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"558a24bc-dc7a-423d-b0ba-2f40798506f9.record","label":"3 - Update Record➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"558a24bc-dc7a-423d-b0ba-2f40798506f9.table_name","label":"3 - Update Record➛Wellness request Table","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"558a24bc-dc7a-423d-b0ba-2f40798506f9.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"558a24bc-dc7a-423d-b0ba-2f40798506f9.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d75a2324-befc-4adc-b251-0eb8bc85c601.record","label":"6 - Update Record➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d75a2324-befc-4adc-b251-0eb8bc85c601.table_name","label":"6 - Update Record➛Wellness request Table","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d75a2324-befc-4adc-b251-0eb8bc85c601.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d75a2324-befc-4adc-b251-0eb8bc85c601.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Wellness request Record","reference":"x_938822_wellbeing_wellness_request","reference_display":"Wellness request","type":"reference","base_type":"reference","attributes":{}},{"name":"Updated_1.current.u_requested_for.manager","label":"Trigger - Record Updated➛Wellness request Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"81a71599-916a-4b7b-9be5-8b557fe89420.Catalog Task","label":"4 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"81a71599-916a-4b7b-9be5-8b557fe89420.__action_status__","label":"4 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"81a71599-916a-4b7b-9be5-8b557fe89420.__dont_treat_as_error__","label":"4 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1b896a4a-fd47-40c1-8e5e-af15fc168a13.__action_status__","label":"6 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1b896a4a-fd47-40c1-8e5e-af15fc168a13.__dont_treat_as_error__","label":"6 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"def6e047-d376-4bd9-a1c8-3c4f799942bc.email","label":"8 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"def6e047-d376-4bd9-a1c8-3c4f799942bc.__action_status__","label":"8 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"def6e047-d376-4bd9-a1c8-3c4f799942bc.__dont_treat_as_error__","label":"8 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_requested_for.active","label":"Trigger - Record Created or Updated➛Wellness request Record➛Requested for➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"sys_user","column_name":"active"}]</label_cache>
         <master>true</master>
         <name>Wellbeing Activities_2</name>
         <natlang/>
@@ -1168,7 +1264,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>74b370bc1bd75110074e639bbc4bcbda</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1176,7 +1272,7 @@
         <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:36</sys_updated_on>
+        <sys_updated_on>2022-11-22 17:23:05</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=74b370bc1bd75110074e639bbc4bcbda"/>
@@ -1191,10 +1287,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:59:37</sys_created_on>
         <sys_id>81b3b0bc1bd75110074e639bbc4bcb43</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:38</sys_updated_on>
+        <sys_updated_on>2022-11-22 17:23:07</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1249,7 +1345,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1308,14 +1404,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:59:36</sys_created_on>
         <sys_id>38b370bc1bd75110074e639bbc4bcbfc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:36</sys_updated_on>
+        <sys_updated_on>2022-11-20 19:55:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1332,7 +1428,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1391,14 +1487,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:59:36</sys_created_on>
         <sys_id>f4b370bc1bd75110074e639bbc4bcbdc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:36</sys_updated_on>
+        <sys_updated_on>2022-11-22 17:23:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1415,7 +1511,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1474,14 +1570,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:59:36</sys_created_on>
         <sys_id>f8b3b0bc1bd75110074e639bbc4bcb04</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:36</sys_updated_on>
+        <sys_updated_on>2022-11-22 17:23:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1496,7 +1592,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=74b370bc1bd75110074e639bbc4bcbda"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=74b370bc1bd75110074e639bbc4bcbda"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=74b370bc1bd75110074e639bbc4bcbda^sys_idNOT IN74b3b0bc1bd75110074e639bbc4bcb2b,78b3b0bc1bd75110074e639bbc4bcb22,89b3b0bc1bd75110074e639bbc4bcb40,f4b3b0bc1bd75110074e639bbc4bcb35"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=74b370bc1bd75110074e639bbc4bcbda^sys_idNOT IN74b3b0bc1bd75110074e639bbc4bcb2b,78b3b0bc1bd75110074e639bbc4bcb22,ab6f550a1b139510074e639bbc4bcb1c,dfc376691b1b1510074e639bbc4bcb7d,f4b3b0bc1bd75110074e639bbc4bcb35"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1511,10 +1607,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:59:37</sys_created_on>
         <sys_id>74b3b0bc1bd75110074e639bbc4bcb2b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:37</sys_updated_on>
+        <sys_updated_on>2022-11-22 17:23:05</sys_updated_on>
         <ui_id>558a24bc-dc7a-423d-b0ba-2f40798506f9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=74b3b0bc1bd75110074e639bbc4bcb2b"/>
@@ -1540,10 +1636,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:59:37</sys_created_on>
         <sys_id>bcb3b0bc1bd75110074e639bbc4bcb2c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:37</sys_updated_on>
-        <value>state=3</value>
+        <sys_updated_on>2022-11-20 19:55:35</sys_updated_on>
+        <value>state=2</value>
         <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=74b3b0bc1bd75110074e639bbc4bcb2b"/>
@@ -1599,10 +1695,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:59:37</sys_created_on>
         <sys_id>78b3b0bc1bd75110074e639bbc4bcb22</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:37</sys_updated_on>
+        <sys_updated_on>2022-11-22 17:23:04</sys_updated_on>
         <ui_id>7e0020a9-a84c-4c2d-9819-702c21c5b5a9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=78b3b0bc1bd75110074e639bbc4bcb22"/>
@@ -1669,11 +1765,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:59:37</sys_created_on>
         <sys_id>3cb3b0bc1bd75110074e639bbc4bcb24</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:37</sys_updated_on>
+        <sys_updated_on>2022-11-21 10:00:33</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>ApprovesRejectsAnyU[{{static.62826bf03710200044e0bfc8bcbe5df1}}]</value>
+        <value>ApprovesRejectsAnyU[{{static.a8f98bb0eb32010045e1a5115206fe3a}}]</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>approval_field</field>
@@ -1740,91 +1836,196 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
-        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
         <comment/>
         <display_text/>
         <flow display_value="Wellbeing Activities_2">74b370bc1bd75110074e639bbc4bcbda</flow>
-        <order>5</order>
-        <parent_ui_id>1f290084-bb0c-4579-b9e6-4da49b84b1d7</parent_ui_id>
+        <order>7</order>
+        <parent_ui_id>79c02b60-cac1-4803-a5c5-4010d7ad4d87</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:59:37</sys_created_on>
-        <sys_id>89b3b0bc1bd75110074e639bbc4bcb40</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2022-11-22 17:23:04</sys_created_on>
+        <sys_id>ab6f550a1b139510074e639bbc4bcb1c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:37</sys_updated_on>
-        <ui_id>81a71599-916a-4b7b-9be5-8b557fe89420</ui_id>
+        <sys_updated_on>2022-11-22 17:23:05</sys_updated_on>
+        <ui_id>7c5167e9-8f03-4aea-bb95-c6cdd30cdc5b</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=89b3b0bc1bd75110074e639bbc4bcb40"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ab6f550a1b139510074e639bbc4bcb1c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>89b3b0bc1bd75110074e639bbc4bcb40</document_key>
-        <order>3</order>
+        <document_key>ab6f550a1b139510074e639bbc4bcb1c</document_key>
+        <order>6</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:59:37</sys_created_on>
-        <sys_id>8db3b0bc1bd75110074e639bbc4bcb42</sys_id>
+        <sys_created_on>2022-11-22 17:23:04</sys_created_on>
+        <sys_id>6b6f550a1b139510074e639bbc4bcb1f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:37</sys_updated_on>
-        <value>assigned_to={"display":"Service Desk","value":"413a4d35eb32010045e1a5115206fe6b","table":"sys_user","sys_id":"413a4d35eb32010045e1a5115206fe6b"}</value>
-        <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
+        <sys_updated_on>2022-11-22 17:23:04</sys_updated_on>
+        <value>Rejected﻿</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>89b3b0bc1bd75110074e639bbc4bcb40</document_key>
-        <order>2</order>
+        <document_key>ab6f550a1b139510074e639bbc4bcb1c</document_key>
+        <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:59:37</sys_created_on>
-        <sys_id>c9b3b0bc1bd75110074e639bbc4bcb42</sys_id>
+        <sys_created_on>2022-11-22 17:23:04</sys_created_on>
+        <sys_id>a76f550a1b139510074e639bbc4bcb1f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:37</sys_updated_on>
-        <value>book the activity﻿ task</value>
-        <variable display_value="Short Description">3751fd0e73141300612c273ffff6a7a6</variable>
+        <sys_updated_on>2022-11-22 17:23:04</sys_updated_on>
+        <value>x_938822_wellbeing_wellness_request</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=89b3b0bc1bd75110074e639bbc4bcb40"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ab6f550a1b139510074e639bbc4bcb1c</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 17:23:04</sys_created_on>
+        <sys_id>e36f550a1b139510074e639bbc4bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 17:23:04</sys_updated_on>
+        <value>&lt;p&gt;Dear requester,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;We are sorry to inform you that your resquest has been rejected. please contact to your manager to discuss about that .Once you are done this we are happy to procees your request. &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Kind regards,&lt;/p&gt;
+&lt;p&gt;Wellness Team&lt;/p&gt;</value>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ab6f550a1b139510074e639bbc4bcb1c"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_fields</field>
-        <id>89b3b0bc1bd75110074e639bbc4bcb40</id>
+        <field>ah_body</field>
+        <id>ab6f550a1b139510074e639bbc4bcb1c</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:59:37</sys_created_on>
-        <sys_id>49b3b0bc1bd75110074e639bbc4bcb42</sys_id>
+        <sys_created_on>2022-11-22 17:23:04</sys_created_on>
+        <sys_id>2b6f550a1b139510074e639bbc4bcb1e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:37</sys_updated_on>
-        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <sys_updated_on>2022-11-22 17:23:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_requested_item</field>
-        <id>89b3b0bc1bd75110074e639bbc4bcb40</id>
+        <field>ah_subject</field>
+        <id>ab6f550a1b139510074e639bbc4bcb1c</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:59:37</sys_created_on>
-        <sys_id>85b3b0bc1bd75110074e639bbc4bcb42</sys_id>
+        <sys_created_on>2022-11-22 17:23:04</sys_created_on>
+        <sys_id>636f550a1b139510074e639bbc4bcb1f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:37</sys_updated_on>
-        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <sys_updated_on>2022-11-22 17:23:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>ab6f550a1b139510074e639bbc4bcb1c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 17:23:04</sys_created_on>
+        <sys_id>676f550a1b139510074e639bbc4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 17:23:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current.u_requested_for.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ab6f550a1b139510074e639bbc4bcb1c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 17:23:04</sys_created_on>
+        <sys_id>eb6f550a1b139510074e639bbc4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 17:23:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value>{{Created or Updated_1.current}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_short_description</field>
-        <id>89b3b0bc1bd75110074e639bbc4bcb40</id>
+        <field>table_name</field>
+        <id>ab6f550a1b139510074e639bbc4bcb1c</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:59:37</sys_created_on>
-        <sys_id>c1b3b0bc1bd75110074e639bbc4bcb42</sys_id>
+        <sys_created_on>2022-11-22 17:23:04</sys_created_on>
+        <sys_id>af6f550a1b139510074e639bbc4bcb1e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:37</sys_updated_on>
-        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <sys_updated_on>2022-11-22 17:23:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=89b3b0bc1bd75110074e639bbc4bcb40"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=89b3b0bc1bd75110074e639bbc4bcb40"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ab6f550a1b139510074e639bbc4bcb1c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ab6f550a1b139510074e639bbc4bcb1c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Wellbeing Activities_2">74b370bc1bd75110074e639bbc4bcbda</flow>
+        <order>4</order>
+        <parent_ui_id>1f290084-bb0c-4579-b9e6-4da49b84b1d7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-21 10:14:44</sys_created_on>
+        <sys_id>dfc376691b1b1510074e639bbc4bcb7d</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 17:23:05</sys_updated_on>
+        <ui_id>92faaee4-b04d-4de4-b1e5-7ada7a28e98a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dfc376691b1b1510074e639bbc4bcb7d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dfc376691b1b1510074e639bbc4bcb7d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-21 10:14:44</sys_created_on>
+        <sys_id>57c376691b1b1510074e639bbc4bcb7f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 14:33:37</sys_updated_on>
+        <value>event_status=14^assignment_group={"display":"Service Desk","value":"d625dccec0a8016700a222a0f7900d06","sys_id":"d625dccec0a8016700a222a0f7900d06"}^short_description=book the activity for requester﻿</value>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dfc376691b1b1510074e639bbc4bcb7d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>dfc376691b1b1510074e639bbc4bcb7d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-21 10:14:44</sys_created_on>
+        <sys_id>d3c376691b1b1510074e639bbc4bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:14:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>dfc376691b1b1510074e639bbc4bcb7d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-21 10:14:44</sys_created_on>
+        <sys_id>13c376691b1b1510074e639bbc4bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-21 10:14:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>{{Created or Updated_1.table_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dfc376691b1b1510074e639bbc4bcb7d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dfc376691b1b1510074e639bbc4bcb7d"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1833,16 +2034,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Wellbeing Activities_2">74b370bc1bd75110074e639bbc4bcbda</flow>
-        <order>4</order>
+        <order>5</order>
         <parent_ui_id>1f290084-bb0c-4579-b9e6-4da49b84b1d7</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:59:37</sys_created_on>
         <sys_id>f4b3b0bc1bd75110074e639bbc4bcb35</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:37</sys_updated_on>
+        <sys_updated_on>2022-11-22 17:23:05</sys_updated_on>
         <ui_id>7d3a98e8-2bf4-4e6a-959a-b5683a5399d4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f4b3b0bc1bd75110074e639bbc4bcb35"/>
@@ -1874,6 +2075,20 @@
         <value/>
         <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
     </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f4b3b0bc1bd75110074e639bbc4bcb35</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 14:51:32</sys_created_on>
+        <sys_id>ffbc70861b9f5510074e639bbc4bcb89</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 16:55:18</sys_updated_on>
+        <value>x_938822_wellbeing_wellness_request</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=f4b3b0bc1bd75110074e639bbc4bcb35"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_body</field>
@@ -1881,21 +2096,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:59:37</sys_created_on>
         <sys_id>74b3b0bc1bd75110074e639bbc4bcb37</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:37</sys_updated_on>
+        <sys_updated_on>2022-11-22 14:36:53</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Greetings!&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:dfeeeff0-57ce-4921-b57f-81ae537e4533}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:dfeeeff0-57ce-4921-b57f-81ae537e4533}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Wellness request Record &amp;gt; Requested for &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_dfeeeff0-57ce-4921-b57f-81ae537e4533" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        <value>&lt;p data-tinymcerootblock=""&gt;Greetings!&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:dfeeeff0-57ce-4921-b57f-81ae537e4533}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:dfeeeff0-57ce-4921-b57f-81ae537e4533}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Wellness request Record &amp;gt; Requested for &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_dfeeeff0-57ce-4921-b57f-81ae537e4533" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;Dear ${requested for},&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;Thank you for your request. Your request of The ${item_type} is been recieved and our support team will be looking at it. Once it has been completed , we will get in touch with you as soon as possible.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Thank you for your request. Your request is been recieved and our support team will be getting in touch with you about your activity&amp;nbsp;as soon as possible&amp;nbsp; once it has been completed.&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;Kind regards,&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;&lt;!-- x-tinymce/html --&gt;&lt;/p&gt;
-&lt;p&gt;Wellbeing Center Team&lt;/p&gt;</value>
+&lt;p&gt;Service Desk Team&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_cc</field>
@@ -1927,20 +2137,57 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:59:37</sys_created_on>
         <sys_id>b0b3b0bc1bd75110074e639bbc4bcb37</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:37</sys_updated_on>
+        <sys_updated_on>2022-11-22 16:52:35</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value>{{Created or Updated_1.current.u_requested_for.email}} </value>
     </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=f4b3b0bc1bd75110074e639bbc4bcb35"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>f4b3b0bc1bd75110074e639bbc4bcb35</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 14:51:32</sys_created_on>
+        <sys_id>bbbc70861b9f5510074e639bbc4bcb89</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 16:55:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>f4b3b0bc1bd75110074e639bbc4bcb35</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 14:51:32</sys_created_on>
+        <sys_id>7fbc70861b9f5510074e639bbc4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 14:51:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f4b3b0bc1bd75110074e639bbc4bcb35^sys_idNOT INc96934421b9f5510074e639bbc4bcb09"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_body</input_name>
+        <instance>f4b3b0bc1bd75110074e639bbc4bcb35</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_body":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 14:36:53</sys_created_on>
+        <sys_id>c96934421b9f5510074e639bbc4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 14:36:53</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f4b3b0bc1bd75110074e639bbc4bcb35"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=74b370bc1bd75110074e639bbc4bcbda"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=74b370bc1bd75110074e639bbc4bcbda^sys_idNOT IN70b3b0bc1bd75110074e639bbc4bcb15,70b3b0bc1bd75110074e639bbc4bcb19,f4b3b0bc1bd75110074e639bbc4bcb10"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=74b370bc1bd75110074e639bbc4bcbda^sys_idNOT INab6f550a1b139510074e639bbc4bcb26,f4b3b0bc1bd75110074e639bbc4bcb10"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">d0aa0e901b5b9510074e639bbc4bcbd4</block>
+        <block display_value="">962f9dc61b139510074e639bbc4bcb2a</block>
         <comment/>
-        <connected_to/>
+        <connected_to>1f290084-bb0c-4579-b9e6-4da49b84b1d7</connected_to>
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
@@ -1949,98 +2196,26 @@
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <inputs/>
-        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:59:36</sys_created_on>
-        <sys_id>70b3b0bc1bd75110074e639bbc4bcb15</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_created_on>2022-11-22 17:23:04</sys_created_on>
+        <sys_id>ab6f550a1b139510074e639bbc4bcb26</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:36</sys_updated_on>
-        <ui_id>e3ae5efd-719a-457c-9719-5d6745cb3cda</ui_id>
+        <sys_updated_on>2022-11-22 17:23:05</sys_updated_on>
+        <ui_id>79c02b60-cac1-4803-a5c5-4010d7ad4d87</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=70b3b0bc1bd75110074e639bbc4bcb15"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>70b3b0bc1bd75110074e639bbc4bcb15</document_key>
-        <order>10</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:59:36</sys_created_on>
-        <sys_id>f0b3b0bc1bd75110074e639bbc4bcb18</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:36</sys_updated_on>
-        <value>Requested Item Rejected</value>
-        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=70b3b0bc1bd75110074e639bbc4bcb15"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition</field>
-        <id>70b3b0bc1bd75110074e639bbc4bcb15</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:59:36</sys_created_on>
-        <sys_id>70b3b0bc1bd75110074e639bbc4bcb18</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:36</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{7e0020a9-a84c-4c2d-9819-702c21c5b5a9.approval_state}}=rejected</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition_name</field>
-        <id>70b3b0bc1bd75110074e639bbc4bcb15</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:59:36</sys_created_on>
-        <sys_id>bcb3b0bc1bd75110074e639bbc4bcb17</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:36</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=70b3b0bc1bd75110074e639bbc4bcb15"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=70b3b0bc1bd75110074e639bbc4bcb15"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">a093bc7c1bd75110074e639bbc4bcb0a</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="Wellbeing Activities_2">74b370bc1bd75110074e639bbc4bcbda</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>7</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id>e3ae5efd-719a-457c-9719-5d6745cb3cda</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-18 16:59:36</sys_created_on>
-        <sys_id>70b3b0bc1bd75110074e639bbc4bcb19</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:37</sys_updated_on>
-        <ui_id>14a8871b-2561-436a-88f1-aa9be2792506</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=70b3b0bc1bd75110074e639bbc4bcb19"/>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=70b3b0bc1bd75110074e639bbc4bcb19"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=70b3b0bc1bd75110074e639bbc4bcb19"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ab6f550a1b139510074e639bbc4bcb26"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ab6f550a1b139510074e639bbc4bcb26"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ab6f550a1b139510074e639bbc4bcb26"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">7f4e9f0c1bdf5510074e639bbc4bcbf2</block>
         <comment/>
@@ -2063,10 +2238,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:59:36</sys_created_on>
         <sys_id>f4b3b0bc1bd75110074e639bbc4bcb10</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:36</sys_updated_on>
+        <sys_updated_on>2022-11-22 17:23:04</sys_updated_on>
         <ui_id>1f290084-bb0c-4579-b9e6-4da49b84b1d7</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2093,11 +2268,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 16:59:36</sys_created_on>
         <sys_id>70b3b0bc1bd75110074e639bbc4bcb14</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-18 16:59:36</sys_updated_on>
+        <sys_updated_on>2022-11-22 14:42:23</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{7e0020a9-a84c-4c2d-9819-702c21c5b5a9.approval_state}}=approved</value>
+        <value>{{7e0020a9-a84c-4c2d-9819-702c21c5b5a9.approval_state}}=approved^NQ{{7e0020a9-a84c-4c2d-9819-702c21c5b5a9.approval_state}}=rejected</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -2113,7 +2288,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f4b3b0bc1bd75110074e639bbc4bcb10"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f4b3b0bc1bd75110074e639bbc4bcb10"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=74b370bc1bd75110074e639bbc4bcbda^sys_idNOT IN01b3b0bc1bd75110074e639bbc4bcb45,8db3b0bc1bd75110074e639bbc4bcb44"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=74b370bc1bd75110074e639bbc4bcbda^sys_idNOT IN01b3b0bc1bd75110074e639bbc4bcb45,80cc70861b9f5510074e639bbc4bcbac,8db3b0bc1bd75110074e639bbc4bcb44"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>74b370bc1bd75110074e639bbc4bcbda</attached_to>
         <extra_info/>
@@ -2130,6 +2305,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>9f451b75-9326-4bac-8467-8ac218449dbc</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>74b370bc1bd75110074e639bbc4bcbda</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 14:51:33</sys_created_on>
+        <sys_id>80cc70861b9f5510074e639bbc4bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 14:51:33</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>cadfc0cd-e9ee-4f90-ae7b-b4b29a6a4346</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>74b370bc1bd75110074e639bbc4bcbda</attached_to>
