@@ -3,43 +3,43 @@
         <category>custom</category>
         <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
         <controller_as>c</controller_as>
-        <css>.footerStyle {
-  width: 100%;
-  background-color: #000000;
-  color: $cloud-CloudWhite;
-  text-align: center;
-  font-size: 125%;
-  margin-left: auto; 
-  margin-right: auto;
-  padding-top: 25px;
-}
-
-.contactUS {
-  width: 275px;
-  display: inline-block;
-  text-align: left;
-  vertical-align: top;
-}
-
-.contactSupport {
-  width: 275px;
-  display: inline-block;
-  text-align: left;
-  vertical-align: top;
-}
-
-.copyright {
-  width: 400px;
-  display: inline-block;
-  text-align: left;
-  vertical-align: top;
-}
-
-.social {
-  display: inline-block;
-  text-align: left;
-  vertical-align: top;
-  font-size: 150%;
+        <css>.footerStyle {&#13;
+  width: 100%;&#13;
+  background-color: #000000;&#13;
+  color: $Cloud-CloudWhite;&#13;
+  text-align: center;&#13;
+  font-size: 125%;&#13;
+  margin-left: auto; &#13;
+  margin-right: auto;&#13;
+  padding-top: 25px;&#13;
+}&#13;
+&#13;
+.contactUS {&#13;
+  width: 275px;&#13;
+  display: inline-block;&#13;
+  text-align: left;&#13;
+  vertical-align: top;&#13;
+}&#13;
+&#13;
+.contactSupport {&#13;
+  width: 275px;&#13;
+  display: inline-block;&#13;
+  text-align: left;&#13;
+  vertical-align: top;&#13;
+}&#13;
+&#13;
+.copyright {&#13;
+  width: 400px;&#13;
+  display: inline-block;&#13;
+  text-align: left;&#13;
+  vertical-align: top;&#13;
+}&#13;
+&#13;
+.social {&#13;
+  display: inline-block;&#13;
+  text-align: left;&#13;
+  vertical-align: top;&#13;
+  font-size: 150%;&#13;
 }</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
@@ -69,21 +69,21 @@
         <template><![CDATA[<div class="footerStyle">
   
   <div class="contactUS">
-    <p><strong>CONTACT IT</strong></p>
-    <p>Americas: +1 XXX 555 1234</p>
-    <p>EMEA: +XX 55 555 1234</p>
-    <p>APAC: +XX 55 555 1234</p>
+    <p><strong>CONTACT US</strong></p>
+    <p>Americas: +1 333 555 1234</p>
+    <p>EMEA: +23 55 555 1234</p>
+    <p>APAC: +95 55 555 1234</p>
   </div>
   
   <div class="contactSupport">
     <p><strong>CONTACT SUPPORT</strong></p>
-    <p>Americas: +1 XXX 555 4321</p>
-    <p>EMEA: +XX 55 555 4321</p>
-    <p>APAC: +XX 55 555 4321</p>
+    <p>Americas: +1 333 555 4321</p>
+    <p>EMEA: +23 55 555 4321</p>
+    <p>APAC: +95 55 555 4321</p>
   </div>
   
   <div class="copyright">
-    <p>&copy 2022 ServiceNow Inc. All Rights Reserved</p>
+    <p>&copy 2022 WELLNESS COMPANY LTD. All Rights Reserved</p>
   </div>
   
   <div class="social" id="footer">
