@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="4909307f1b0b1510074e639bbc4bcb4a" extends="task" label="Wellness request" max_length="40" name="x_938822_wellbeing_wellness_request" type="collection">
+        <element attributes="encode_utf8=false" label="Caller" max_length="32" name="caller" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Closed" max_length="40" name="closed" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="11" label="Event Status" max_length="40" name="event_status" type="string">

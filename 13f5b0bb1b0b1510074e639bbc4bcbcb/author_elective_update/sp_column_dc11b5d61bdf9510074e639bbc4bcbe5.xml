@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <size>4</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">9811b5d61bdf9510074e639bbc4bcbe3</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-23 13:18:37</sys_created_on>
+        <sys_id>dc11b5d61bdf9510074e639bbc4bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_update_name>sp_column_dc11b5d61bdf9510074e639bbc4bcbe5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-23 13:18:37</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</application>
+        <file_path/>
+        <instance_id>b12c8a5ddb72c450b847ac44d4961922</instance_id>
+        <instance_name>dev99417</instance_name>
+        <name>sp_column_dc11b5d61bdf9510074e639bbc4bcbe5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>4</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">9811b5d61bdf9510074e639bbc4bcbe3</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-23 13:18:37</sys_created_on><sys_id>dc11b5d61bdf9510074e639bbc4bcbe5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package><sys_policy/><sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope><sys_update_name>sp_column_dc11b5d61bdf9510074e639bbc4bcbe5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-23 13:18:37</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-1883098642</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>892fde841b1f5510074e639bbc4bcb8f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-23 13:18:37</sys_created_on>
+        <sys_id>d811b5d61bdf9510074e639bbc4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184a4a3ee190000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-23 13:18:37</sys_updated_on>
+        <type>Column</type>
+        <update_guid>1411b5d6aadf95109422ad634f83cfe7</update_guid>
+        <update_guid_history>1411b5d6aadf95109422ad634f83cfe7:-1883098642</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">cbd7cada1b13d510074e639bbc4bcb2b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-23 14:58:12</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>553d4ec8527d44dda1932076ad571ba9</sys_id>
+        <sys_metadata>dc11b5d61bdf9510074e639bbc4bcbe5</sys_metadata>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Wellbeing Center" source="x_938822_wellbeing">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Wellbeing Center">13f5b0bb1b0b1510074e639bbc4bcbcb</sys_scope>
+        <sys_scope_delete display_value="">3829f43fe931444eb2f6d6a6e4a355e4</sys_scope_delete>
+        <sys_update_name>sp_column_dc11b5d61bdf9510074e639bbc4bcbe5</sys_update_name>
+        <sys_update_version display_value="sp_column_dc11b5d61bdf9510074e639bbc4bcbe5">d811b5d61bdf9510074e639bbc4bcbe7</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
